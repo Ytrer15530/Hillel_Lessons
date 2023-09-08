@@ -191,3 +191,27 @@
 # result = "Dogs {1} and cats {1}".format(dogs, cats)
 # print(result)
 
+########
+
+# message = "Hello world"
+# # [] -> индексаторы
+# print(message[0])
+# print(len(message))
+# # print(message[len(message)]) ошибка indexerror
+# print(message[len(message) - 1])
+# print(message[-1])
+
+# string - immutable
+
+# v1
+# sentence = "Hello World"
+# for letter in sentence:
+#     print(letter, end=" ")
+#
+# print()
+#
+# # v2
+# for i in range(len(sentence)):
+#     print(sentence[i], end=" ")
+#
+
