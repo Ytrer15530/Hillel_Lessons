@@ -98,3 +98,157 @@
 
 ########################
 # Lesson 4
+
+# for i in range(5):
+#     #print("Hello")
+#     print(i, end=" ")
+#
+# print()
+#
+# for i in range(2, 5):
+#     #print("Hello")
+#     print(i, end=" ")
+#
+# print()
+#
+# for i in range(1, 5, 2):
+#     #print("Hello")
+#     print(i, end=" ")
+#
+# print()
+#
+# start, end = 1, 10
+# for i in range(start, end + 1):
+#     print(i, end=" ")
+#
+# print()
+#
+# for i in range(end, start - 1, -1):
+#     print(i, end=" ")
+##########
+
+# start = int(input("Enter start value: "))
+# end = int(input("Enter end value: "))
+#
+# v1
+# if start > end:
+#     start, end = end, start
+#
+# # v2
+# if start > end:
+#     temp = start
+#     start = end
+#     end = temp
+
+# for number in range(start, end + 1):
+#     is_simple = True
+#
+#     if number < 2:
+#         continue
+#
+#     for i in range(2, number):
+#         if number % i == 0:
+#             is_simple = False
+#             break
+#
+#     if is_simple:
+#         print(number, end=" ")
+###########
+
+# message = "hello world"
+# message_1 = 'hello world'
+# print(message)
+#
+# text = ("hello "
+#         "world")
+# print(text)
+#
+# # raw строка
+# text = """wqeqweqw
+#                 qweqweqwe
+#                         qweqweqwe"""
+# print(text)
+
+
+# v1
+# path = r"F:\Users"
+# v2
+# path = "F:\\Users"
+
+#########
+
+# dogs, cats = 12, 15
+# result = f"Dogs {dogs} and cats {cats}"
+# print(result)
+#
+# result.format(dogs, cats)
+# result = result.format(dogs, cats)
+# print(result)
+#
+# result = "Dogs {1} and cats {0}".format(dogs, cats)
+# print(result)
+#
+# result = "Dogs {1} and cats {1}".format(dogs, cats)
+# print(result)
+
+########
+
+# message = "Hello world"
+# # [] -> индексаторы
+# print(message[0])
+# print(len(message))
+# # print(message[len(message)]) ошибка indexerror
+# print(message[len(message) - 1])
+# print(message[-1])
+
+# string - immutable
+
+# v1
+# sentence = "Hello World"
+# for letter in sentence:
+#     print(letter, end=" ")
+#
+# print()
+#
+# # v2
+# for i in range(len(sentence)):
+#     print(sentence[i], end=" ")
+#
+
+# slices #########
+# sentence = "Hello, World"
+# print(sentence[:])
+# print(sentence[0:])
+# print(sentence[2:])
+# print(sentence[2:8])
+# print(sentence[1:10:2])
+# print(sentence[::-1])
+##############
+
+# print(ord("A"))       acii unicode
+# print(chr(98))
+
+
+# text = "hello woRLD"
+# isalpha()   только алфавитные символы
+# print(text.isalpha())
+# islower()
+# isupper()
+# isdigit()
+# isnumeric() тру если с числом строчка
+# startswith() начитается с
+# endswith() заканчивается на
+# lower() нижний регистр
+# upper() верхний регистр
+# title() каждое слово с большой
+# capitalize() 1-е слово с большой
+#
+# lstrip() удаляет пробелы слева
+# rstrip() удаляет пробелы справа
+# strip() удаляет пробелы с обоих сторон
+# ljust() выравнивание по левому краю
+# rjust() выравнивание по правому краю
+# center() по центру
+# find() возвращает индекс  -1 = не найдено
+# rfind() ищет с конца
+# replace() меняет одно на другое
