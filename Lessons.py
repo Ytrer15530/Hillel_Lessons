@@ -127,3 +127,30 @@
 #     print(i, end=" ")
 ##########
 
+# start = int(input("Enter start value: "))
+# end = int(input("Enter end value: "))
+#
+# v1
+# if start > end:
+#     start, end = end, start
+#
+# # v2
+# if start > end:
+#     temp = start
+#     start = end
+#     end = temp
+
+# for number in range(start, end + 1):
+#     is_simple = True
+#
+#     if number < 2:
+#         continue
+#
+#     for i in range(2, number):
+#         if number % i == 0:
+#             is_simple = False
+#             break
+#
+#     if is_simple:
+#         print(number, end=" ")
+###########
