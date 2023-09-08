@@ -154,3 +154,25 @@
 #     if is_simple:
 #         print(number, end=" ")
 ###########
+
+# message = "hello world"
+# message_1 = 'hello world'
+# print(message)
+#
+# text = ("hello "
+#         "world")
+# print(text)
+#
+# # raw строка
+# text = """wqeqweqw
+#                 qweqweqwe
+#                         qweqweqwe"""
+# print(text)
+
+
+# v1
+# path = r"F:\Users"
+# v2
+# path = "F:\\Users"
+
+#########
