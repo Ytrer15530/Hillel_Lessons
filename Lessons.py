@@ -176,3 +176,18 @@
 # path = "F:\\Users"
 
 #########
+
+# dogs, cats = 12, 15
+# result = f"Dogs {dogs} and cats {cats}"
+# print(result)
+#
+# result.format(dogs, cats)
+# result = result.format(dogs, cats)
+# print(result)
+#
+# result = "Dogs {1} and cats {0}".format(dogs, cats)
+# print(result)
+#
+# result = "Dogs {1} and cats {1}".format(dogs, cats)
+# print(result)
+
