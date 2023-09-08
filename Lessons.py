@@ -215,3 +215,17 @@
 #     print(sentence[i], end=" ")
 #
 
+# slices #########
+# sentence = "Hello, World"
+# print(sentence[:])
+# print(sentence[0:])
+# print(sentence[2:])
+# print(sentence[2:8])
+# print(sentence[1:10:2])
+# print(sentence[::-1])
+##############
+
+# print(ord("A"))       acii unicode
+# print(chr(98))
+
+
